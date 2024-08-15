@@ -31,6 +31,6 @@ with col2:
 with st.sidebar:
   st.subheader("Decidete de una vez 🛒")
   mod_radio = st.radio(
-    "escoge una marca", 
+    "Escoge una marca", 
     ("Chevrolet", "Renault","Ford")
   )
