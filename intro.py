@@ -27,3 +27,10 @@ with col2:
     st.write("Es una marca francesa")
   if modo == "Ford":
     st.write("La marca mas vendida en los estados unidos")
+
+with st.sidebar:
+  st.subheader("Decidete de una vez 🛒")
+  mod_radio = st.radio(
+    "escoge una marca", 
+    ("Chevrolet", "Renault","Ford")
+  )
