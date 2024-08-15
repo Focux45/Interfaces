@@ -17,3 +17,13 @@ with col1:
   resp = st.checkbox("Preguntele a chatgpt")
   if resp:
     st.write("Preste atención a la clase")
+
+with col2:
+  st.subheader("Segunda columna")
+  modo = st.radio("Selecciona las marcas que te gustaría comprar", ("Chevrolet", "Renault","Ford"))
+  if modo == "Chevrolet":
+    st.write("Es una marca interesante")
+  if modo == "Renault":
+    st.write("Es una marca francesa")
+  if modo == "Ford":
+    st.write("La marca mas vendida en los estados unidos")
